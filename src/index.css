@@ -32,7 +32,11 @@ a {
     --red_color: #C45F6A;
     --red_color1: #f1473e;
     --box_shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --box_shadow1: rgba(236, 55, 14, 0.2) 0px 8px 24px;
+    --box_shadow2: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
     --logo_color: #FE736C;
     --gray_color: #F3F5F9;
     --blue_color: #F6F9FC;
+    --blue_color1: #4E54C8;
+    --gold_color: #FEA569;
 }

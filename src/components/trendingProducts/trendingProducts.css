@@ -88,6 +88,10 @@
     font-weight: 600;
     color: var(--main_color);
     margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .t_products_main_product_desc_div {
@@ -179,21 +183,25 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media screen and (max-width: 768px) {
     .t_products_main_products {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (max-width: 514px) {
     .t_products_main_products {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .t_products_main_nav_title {
         font-size: 20px;
         font-weight: 600;
         color: var(--main_color);
     }
 }
+
 @media screen and (max-width: 400px) {
     .t_products_main_nav {
         height: 100px;

@@ -38,12 +38,10 @@ const NavbarTop = () => {
                                 <div className='navbar_top_main_left_box_btn_black'>
                                     <img src={img1} alt="" />
                                     <p>ENG / eur</p>
-                                    <p className='navbar_top_main_left_box_btn_i'><IoMdArrowDropdown /></p>
                                 </div>
                                 <div className='navbar_top_main_left_box_btn_black'>
                                     <img src={img2} alt="" />
                                     <p>RUS / rub</p>
-                                    <p className='navbar_top_main_left_box_btn_i'><IoMdArrowDropdown /></p>
                                 </div>
                             </div>
                         </div>
